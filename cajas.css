@@ -1,0 +1,51 @@
+.contenedor{
+	height: 810px;
+	width: 400px;
+	position: relative;
+}
+.rojo{
+	background-color: red;
+	height: 400px;
+	width: 400px;
+	position: relative;
+}
+.lila{
+	background-color: purple;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+.amarillo{
+	background-color: yellow;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	z-index: 10;
+}
+.azul{
+	background-color: blue;
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	bottom: 0px;
+}
+.verde{
+	background-color: green;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	bottom: 100px;
+	left: 100px;
+}
+.negro{
+	background-color: black;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	bottom: 300px;
+	left: 0px;
+}
